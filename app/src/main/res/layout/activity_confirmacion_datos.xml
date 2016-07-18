@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.duquehenry.duquehenrysubmission.ConfirmacionDatos">
+
+    <TextView
+        android:id="@+id/textViewConfirmarDatosTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:textSize="@dimen/size_confirmar_datos_titulo"
+        android:text="@string/confirmar_datos_titulo"
+        android:paddingBottom="@dimen/size_padding"
+        android:textAlignment="center" />
+
+
+    <TextView
+        android:id="@+id/textViewConfirmarDatosNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/size_confirmar_datos_variables"
+        android:paddingBottom="@dimen/size_padding"
+        android:text="@string/confirmar_datos_nombre" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/size_padding">
+
+        <TextView
+            android:id="@+id/textViewConfirmarDatosFechaNacimiento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/size_confirmar_datos_variables"
+            android:paddingRight="@dimen/size_padding"
+            android:text="@string/confirmar_datos_fecha_nacimiento" />
+
+        <TextView
+            android:id="@+id/textViewConfirmarDatosFechaNacimientoDetalle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/size_confirmar_datos_variables"
+            android:paddingLeft="@dimen/size_padding"
+            android:text="@string/confirmar_datos_fecha_nacimiento_detalle" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/size_padding">
+        <TextView
+            android:id="@+id/textViewConfirmarDatosTelefono"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/size_confirmar_datos_variables"
+            android:paddingRight="@dimen/size_padding"
+            android:text="@string/confirmar_datos_telefono" />
+
+        <TextView
+            android:id="@+id/textViewConfirmarDatosTelefonoDetalle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/size_confirmar_datos_variables"
+            android:paddingLeft="@dimen/size_padding"
+            android:text="@string/confirmar_datos_telefono_detalle" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/size_padding">
+        <TextView
+            android:id="@+id/textViewConfirmarEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/size_confirmar_datos_variables"
+            android:paddingRight="@dimen/size_padding"
+            android:text="@string/confirmar_datos_email" />
+
+        <TextView
+            android:id="@+id/textViewConfirmarDatosEmailDetalle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/size_confirmar_datos_variables"
+            android:paddingLeft="@dimen/size_padding"
+            android:text="@string/confirmar_datos_email_detalle" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/size_padding">
+        <TextView
+            android:id="@+id/textViewConfirmarDescripcion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/size_confirmar_datos_variables"
+            android:paddingRight="@dimen/size_padding"
+            android:text="@string/confirmar_datos_descripcion" />
+
+        <TextView
+            android:id="@+id/textViewConfirmarDatosDescripcionDetalle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/size_confirmar_datos_variables"
+            android:paddingLeft="@dimen/size_padding"
+            android:text="@string/confirmar_datos_descripcion_detalle" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttomSiguiente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/boton_editar_datos"
+        android:layout_gravity="center"
+        android:onClick="buttomSiguiente" />
+
+
+</LinearLayout>

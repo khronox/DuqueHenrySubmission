@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">DuqueHenrySubmission</string>
+
+    <!-- Formulario Contacto -->
+
+    <string name="formulario_nombre">Nombre Completo</string>
+    <string name="formulario_fecha_nacimiento">Fecha Nacimiento</string>
+    <string name="formulario_telefono">Telefono</string>
+    <string name="formulario_email">Email</string>
+    <string name="formulario_descripcion">Descripcion Contacto</string>
+    <string name="formulario_siguiente">Siguiente</string>
+
+    <!-- Confirmar Datos -->
+
+    <string name="confirmar_datos_titulo">Confirmar Datos</string>
+    <string name="confirmar_datos_nombre">nombre</string>
+    <string name="confirmar_datos_fecha_nacimiento">Fecha de nacimiento: </string>
+    <string name="confirmar_datos_fecha_nacimiento_detalle">detalleFechaNacimiento</string>
+    <string name="confirmar_datos_telefono">Telefono: </string>
+    <string name="confirmar_datos_telefono_detalle">detalleTelefono</string>
+    <string name="confirmar_datos_email">Email: </string>
+    <string name="confirmar_datos_email_detalle">detalleEmail</string>
+    <string name="confirmar_datos_descripcion">Descripcion: </string>
+    <string name="confirmar_datos_descripcion_detalle">detalleDescripcion</string>
+    <string name="boton_editar_datos">Editar Datos</string>
+</resources>
